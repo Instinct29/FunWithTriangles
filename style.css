@@ -1,0 +1,18 @@
+ /* *{
+    margin: 0;
+    padding: 0;
+} 
+.background-test{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./itachi-uchiha-naruto-amoled-black-background-5k-5800x3197-4962.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    color: wheat;
+}
+.question-container{
+    color: whitesmoke;
+} */
