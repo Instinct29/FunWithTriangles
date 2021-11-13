@@ -8,7 +8,7 @@ function checkans(){
     let score = 0;
     let index = 0;
     const formResults = new FormData(quizForm);
-    for(let entry of formResults.entries()){
-    console.log(entry)
+    for(let value of formResults.values()){
+    console.log(value)
     }
 }
