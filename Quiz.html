@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <nav>
-        <a href="./index.html">Home/IsTriangle?</a>
-        <a href="./Quiz.html">Triangle Quiz</a>
-        <a href="./hypotenuse.html">Hypotenuse of Triangle📐</a>
-        <a href="./area.html">Area Of Triangle</a>
+    <nav class="navigation">
+        <a href="./index.html">IsTriangle?</a>
+        <a href="./Quiz.html">Quiz</a>
+        <a href="./hypotenuse.html">Hypotenuse📐</a>
+        <a href="./area.html">Area </a>
     </nav>
 
     <h1>Triangle Quiz</h1>
@@ -42,9 +42,26 @@
                 <input type="radio" name="question2" value="Right angled" />Right angled
             </label>
         </div>
+        <div class="question-container">
+            <p>Qn3 :A triangle with one angle greater than 90 degrees.</p>
+            <label ><input type="radio" name="question3" value="equilateral triangle">equilateral triangle</label>
+            <label ><input type="radio" name="question3" value="obtuse triangle">obtuse triangle</label>
+            <label ><input type="radio" name="question3" value=" acute triangle">acute triangle</label>
+        </div>
+        <div class="question-container">
+            <p>Qn4 :A triangle with all three angles less than 90 degrees.</p>
+            <label ><input type="radio" name="question4" value="equilateral triangle">equilateral triangle</label>
+            <label ><input type="radio" name="question4" value=" obtuse triangle"> obtuse triangle</label>
+            <label ><input type="radio" name="question4" value="acute triangle">acute triangle</label>
+        </div>
+        
     </form>
-    <button id="submit-btn">Submit</button>
-    <p id="output-text"></p>
+    <div class="output-btn">
+        <button id="submit-btn " class="button1">Submit</button>
+        <p id="output-text"></p>
+
+    </div>
+    
 
 
 </body>

@@ -1,18 +1,60 @@
- /* *{
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400;700&family=Merriweather:wght@400;700&family=Roboto:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap');
+body{
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif
+}
+*{
     margin: 0;
-    padding: 0;
-} 
-.background-test{
-    min-height: 100vh;
-    width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./itachi-uchiha-naruto-amoled-black-background-5k-5800x3197-4962.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    
+}
+body div{
+    padding: 1rem;
+    height: 3rem;
+}
+.angle-1{
+    height: 1.5rem;
+}
+
+.navigation{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    height: 2rem;
+    border-top-left-radius: 1rem;
+    background-color: #93C5FD;
+    
+      
+}
+.navigation a{
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
 }
 h1{
-    color: wheat;
+    text-align: center;
 }
-.question-container{
-    color: whitesmoke;
-} */
+.a1,.a2,.a3{
+    text-align: center;
+}
+.output-btn{
+    text-align: center;
+}
+.questions,.container1{
+    text-align: center;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    transition-duration: 1s;
+    height: 2.5rem;
+  }
+  
+  .button1:hover {
+    background-color: #008CBA;
+    color: white;
+  }

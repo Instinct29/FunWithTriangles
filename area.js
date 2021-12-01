@@ -6,7 +6,9 @@ function getarea(a,b){
     return area;
 }
 areaButton.addEventListener("click",()=>{
+    if(baseAndHeight[0].value >=0 && baseAndHeight[1].value >=0){
     const area = getarea(baseAndHeight[0].value,baseAndHeight[1].value);
     output4.innerText = "The area of Triangle 📐 is " + area;
+    }else{output4.innerText = "Invalid Inputs"}
     
 })
