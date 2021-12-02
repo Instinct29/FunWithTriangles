@@ -24,7 +24,7 @@ body div{
     padding: 1rem;
     height: 2rem;
     border-top-left-radius: 1rem;
-    background-color: #93C5FD;
+    background-color: #d5f1f1;
     
       
 }
@@ -32,9 +32,14 @@ body div{
     padding: 1rem;
     text-decoration: none;
     color: black;
+    
+}
+.navigation .linkactive{
+    font-weight: bold;
 }
 h1{
     text-align: center;
+    color: #008CBA;
 }
 .a1,.a2,.a3{
     text-align: center;
@@ -58,3 +63,15 @@ h1{
     background-color: #008CBA;
     color: white;
   }
+  label{
+      text-align: center;
+  }
+  .question-container,.hoja{
+      text-align: center;
+  }
+  #output-text{
+      margin-top: 2rem;
+      font-weight: bolder;
+      color:#008CBA ;
+  }
+ 
